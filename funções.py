@@ -36,4 +36,15 @@ else:
 
 """
 
+"""
+Exercícios Função
+1 - Crie uma função que exibe uma saudação com os parêmetros saudação e nome.
+nome = input('Digite seu nome: ')
+def saudacao():
+    return (f'Olá {nome}, seja bem vindo')
+
+var = saudacao()
+print(var)
+"""
+
 
