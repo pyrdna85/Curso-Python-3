@@ -45,6 +45,19 @@ def saudacao():
 
 var = saudacao()
 print(var)
+
+2 - Crie uma função que receba 3 núemros como parâmetros e exiba a soma entre eles
+cont = 0
+for c in range(3):
+    numero = int(input('Informe um número: '))
+    cont += numero
+
+def soma():
+    return cont
+var = soma()
+print(var)
+
 """
+
 
 
