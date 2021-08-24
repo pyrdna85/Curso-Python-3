@@ -57,7 +57,25 @@ def soma():
 var = soma()
 print(var)
 
+3 - Crie uma função que receba dois números. O primeiro é um valor e o segundo um percentual (ex. 10%).
+Retorne (return) o valor do primeiro número somado do aumento do percentual do mesmo.
+cont = 1
+lista = []
+while cont >= 0:
+    numero = int(input('Informe um número: '))
+    lista.append(numero)
+    cont -= 1
+a = lista[0]
+b = lista[1] / 10
+
+def calculo():
+    return a + b
+
+var = calculo()
+print(var)
+
 """
+
 
 
 
