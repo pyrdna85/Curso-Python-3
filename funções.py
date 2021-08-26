@@ -78,7 +78,19 @@ print(var)
 função for divisível por 5, retorne buzz. Se o parâmetro da função for divisível por 5 e por 3, 
 retorne FizzBuzz, caso contrário, retorne o número enviado.
 
+
+def fb(n):
+    if n % 3 == 0:
+        return 'fizz'
+    elif n % 5 == 0:
+        return 'buzz'
+    elif n % 3 == 0 and n % 5 == 0:
+        return 'fizzbuzz'
+    else:
+        return n
+print(fb(10))
 """
+
 
 
 
