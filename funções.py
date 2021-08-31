@@ -5,8 +5,8 @@ def funcao(msg='Ola', nome='usuario'):
     msg = msg.replace('e', '3')
     return f'{msg} {nome}'
 
-
-print(funcao)
+variavel = funcao()
+print(variavel)
 """
 
 """
@@ -96,8 +96,6 @@ for i in range(100):
 """
 """
 Funções (def) em Python - *args **kwargs - (Parte 3)
-"""
-
 def func(*args, **kwargs):
     print(args)
     idade = kwargs.get('idade')
@@ -108,7 +106,30 @@ def func(*args, **kwargs):
 
 lista = [1, 2, 3, 4, 5]
 lista2 = [10, 20, 30, 40, 50]
-func(*lista, *lista2, nome='Rodrigo', sobrenome='Andrade', idade='36')
+
+func(*lista, *lista2, nome='Rodrigo', sobrenome='Andrade', idade=36)
+"""
+"""
+variavel = 'valor'
+
+def func():
+    print(variavel)
+
+def func2():
+    global variavel
+    variavel = 'Outro valor'
+    print(variavel)
+func()
+func2()
+
+print(variavel)
+"""
+
+
+
+
+
+
 
 
 
